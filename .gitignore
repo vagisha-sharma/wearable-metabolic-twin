@@ -14,3 +14,6 @@ python check_sizes.py
 check_sizes.py
 extract_demo_profiles.py
 data/raw/
+venv/
+__pycache__/
+*.pyc

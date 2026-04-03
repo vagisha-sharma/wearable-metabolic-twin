@@ -2,7 +2,10 @@ pandas
 numpy
 matplotlib
 seaborn
-pyarrow
+scipy
 scikit-learn
+lightgbm
 plotly
 streamlit
+joblib
+pyarrow

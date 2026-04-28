@@ -1,4 +1,4 @@
-# 🫀 Wearable Metabolic Twin
+# Wearable Metabolic Twin
 
 > An AI-powered activity recognition and metabolic monitoring dashboard built on the PAMAP2 wearable sensor dataset.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 What is this project?
+## What is this project?
 
 A **Wearable Metabolic Twin** is a virtual representation of your body's physical state — built from wearable sensor data. This project uses accelerometer, gyroscope, magnetometer, and heart rate data from 9 subjects performing 12 activities to:
 
@@ -22,7 +22,7 @@ A **Wearable Metabolic Twin** is a virtual representation of your body's physica
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 wearable_metabolic_twin/
@@ -58,7 +58,7 @@ wearable_metabolic_twin/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **PAMAP2 Physical Activity Monitoring**
 - 🔗 [Download from UCI ML Repository](https://archive.ics.uci.edu/dataset/231/pamap2+physical+activity+monitoring)
@@ -79,7 +79,7 @@ wearable_metabolic_twin/
 
 ---
 
-## 🧠 Model & Approach
+## Model & Approach
 
 | Component | Choice | Reason |
 |---|---|---|
@@ -102,7 +102,7 @@ wearable_metabolic_twin/
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 ### 1. Clone the repository
 
@@ -146,22 +146,22 @@ Open your browser at `http://localhost:8501`
 
 ---
 
-## 🖥️ App Features (8 Tabs)
+## App Features (8 Tabs)
 
 | Tab | What it shows |
 |---|---|
-| 📋 Overview | Dataset summary, model metrics, sensor placement diagram |
-| 📂 Upload / Demo | Try pre-built activity demos OR upload your own CSV |
-| ⚡ Live Prediction | Real-time sliders for sensor values → instant prediction |
-| 🫀 Metabolic Twin Ring | Circular exertion gauge + activity display |
-| 🔋 Energy Storyboard | Cumulative load curve + freshness battery |
-| 📡 Sensor Explorer | Signal plots for wrist, chest, ankle |
-| 📈 Model Performance | Confusion matrix, F1 scores, feature importance, LOSO |
-| ℹ️ About | Limitations, future improvements, run commands |
+| Overview | Dataset summary, model metrics, sensor placement diagram |
+| Upload / Demo | Try pre-built activity demos OR upload your own CSV |
+| Live Prediction | Real-time sliders for sensor values → instant prediction |
+| Metabolic Twin Ring | Circular exertion gauge + activity display |
+| Energy Storyboard | Cumulative load curve + freshness battery |
+| Sensor Explorer | Signal plots for wrist, chest, ankle |
+| Model Performance | Confusion matrix, F1 scores, feature importance, LOSO |
+| About | Limitations, future improvements, run commands |
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 ```
 pandas
@@ -183,7 +183,7 @@ pip install -r requirements.txt
 
 ---
 
-## ☁️ Deploy on Streamlit Cloud (Free)
+## Deploy on Streamlit Cloud (Free)
 
 1. Push this project to a GitHub repository
 2. Go to [share.streamlit.io](https://share.streamlit.io)
@@ -196,7 +196,7 @@ pip install -r requirements.txt
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 - Only 9 subjects — may not generalise to all body types
 - Sitting vs Standing is still challenging (similar motion patterns)
@@ -206,7 +206,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - 1D-CNN or LSTM on raw signals (expected ~85–90% F1)
 - Real-time Bluetooth sensor streaming
@@ -216,15 +216,12 @@ pip install -r requirements.txt
 
 ---
 
-## 👩‍💻 Built By
+## Built By
 
 **Vagisha Sharma** 
 Project: Wearable Metabolic Twin  
 Dataset: PAMAP2 Physical Activity Monitoring (UCI ML Repository)  
 Tools: Python · Streamlit · LightGBM · Plotly · Pandas · SciPy
-
----
-
-## 📄 License
-
 This project is for educational purposes. The PAMAP2 dataset is provided by the UCI Machine Learning Repository.
+
+
